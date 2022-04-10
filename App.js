@@ -9,7 +9,7 @@ import { Home } from './src/screens/home';
 import { Collections } from './src/screens/collections';
 
 import { DoCollection } from './src/screens/docollection';
-import { Camera } from './src/screens/camera';
+
 import CustomDrawer from './src/components/CustomDrawer';
 
 const Stack = createStackNavigator();
@@ -43,11 +43,6 @@ function NavStack() {
         options={{ headerShown: false }}
         name="Fazer Coleta"
         component={DoCollection}
-      />
-      <Stack.Screen
-        options={{ headerShown: false }}
-        name="Camera"
-        component={Camera}
       />
     </Stack.Navigator>
   );
