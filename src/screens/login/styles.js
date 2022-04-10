@@ -1,0 +1,75 @@
+import { StyleSheet } from 'react-native';
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: 'rgba(176, 196, 222, 0.44)',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  logoContainer: {
+    width: '100%',
+    alignItems: 'center',
+  },
+  loginContainer: {
+    backgroundColor: '#fff',
+    borderRadius: 10,
+    width: '80%',
+    justifyContent: 'center',
+    elevation: 3,
+    paddingBottom: 30,
+  },
+  loginInput: {
+    marginTop: 30,
+    backgroundColor: '#ECECEC',
+    alignSelf: 'center',
+    paddingHorizontal: 12,
+    width: '80%',
+    height: 45,
+    borderRadius: 5,
+  },
+  loginButtonEnabled: {
+    marginTop: 40,
+    width: '80%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    height: 45,
+    backgroundColor: '#6495ED',
+    borderRadius: 5,
+  },
+  loginButtonDisabled: {
+    marginTop: 40,
+    width: '80%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    alignSelf: 'center',
+    height: 45,
+    backgroundColor: '#CACACA',
+    borderRadius: 5,
+  },
+  btnText: {
+    fontWeight: 'bold',
+    color: 'white',
+  },
+  errorText: {
+    color: 'red',
+    position: 'absolute',
+    width: '100%',
+    marginLeft: '10%',
+    fontSize: 12,
+  },
+  persistContainer: {
+    marginTop: 16,
+    flexDirection: 'row',
+    width: '100%',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+    marginLeft: '10%',
+  },
+  persistText: {
+    color: '#333333',
+    marginLeft: 10,
+    fontSize: 14,
+  },
+});
